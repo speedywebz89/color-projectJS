@@ -5,7 +5,7 @@
   --clr-primary-3: hsl(221, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(204, 75%, 55%);
+  --clr-primary-5: hsl(0, 0%, 55%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
   --clr-primary-7: hsl(205, 90%, 76%);
@@ -171,15 +171,36 @@ nav {
 }
 nav a {
   text-transform: capitalize;
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: grey;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: rgb(30, 29, 29);
   letter-spacing: var(--spacing);
   margin-right: 1rem;
 }
 nav a:hover {
-  color: var(--clr-primary-4);
+  color: var(--clr-red-dark);
 }
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.alpha {
+  color: black;
+}
+
+.hex {
+  color: red;
+}
+
 /*
 =============== 
 Container
